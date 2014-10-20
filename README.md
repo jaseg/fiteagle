@@ -3,15 +3,21 @@ FITeagle | Future Internet Testbed Experimentation and Management Framework
 
 Bootstrap (install & run)
 -------------------------
-bash -c "$(curl -fsSkL fiteagle.org/bootstrap)"
+```
+curl https://raw.githubusercontent.com/tubav/fiteagle/master/src/main/bin/bootstrap.sh | bash
+```
 
 Test
 ----
+```
 ./src/main/bin/fiteaglectl test
+```
 
 Start
 -----
+```
 ./src/main/bin/fiteaglectl start
+```
 
 Further Information
 -------------------
